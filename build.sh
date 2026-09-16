@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 cd "$(dirname "$0")"
-python3 tools/audit_release.py || true
+python3 tools/audit_release.py
 mkdir -p build
 if command -v acme >/dev/null 2>&1; then
   acme -f cbm -o build/Pulsegrid.prg src/euro_pulsegrid_v3_9_starptr_roi.asm
