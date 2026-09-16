@@ -16,6 +16,12 @@ It is a standalone C64 project, not an ArpSID plugin or emulator component.
 - A Python structural audit that detects duplicate labels, unresolved references,
   unsafe coordinates, and regressions in the raster/visual hot paths.
 
+## Runtime capture
+
+The following frame was captured while the built PRG was running in VICE.
+
+![Pulsegrid running in VICE](docs/screenshots/runtime.png)
+
 ## Build
 
 Requirements:
