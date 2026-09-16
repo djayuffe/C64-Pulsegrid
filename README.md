@@ -1,4 +1,4 @@
-# Pulsegrid
+# C64 - Pulsegrid
 
 Pulsegrid is a Commodore 64 procedural eurodance visualizer: a cycle-aware
 6502 assembly production that combines a SID-driven music engine with layered
